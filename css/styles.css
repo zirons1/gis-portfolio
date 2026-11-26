@@ -42,7 +42,8 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 189, 93, 56;
+  /* --bs-primary-rgb: 189, 93, 56; */
+  --bs-primary-rgb: 116, 143, 88;
   --bs-secondary-rgb: 108, 117, 125;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
@@ -10953,6 +10954,22 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+
+section.resume-section::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* Shorthand for top: 0; right: 0; bottom: 0; left: 0; */
+  z-index: -1;  /* Places the image behind the container's text */
+
+  background-image: url("../assets/img/phl_map.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  padding: 40px 20px;
+  opacity: 0.08;
+}
+
 section.resume-section .resume-section-content {
   width: 100%;
 }
