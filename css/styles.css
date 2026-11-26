@@ -10955,7 +10955,7 @@ section.resume-section {
   max-width: 75rem;
 }
 
-section.resume-section::before {
+section.resume-section#about::before {
   content: "";
   position: absolute;
   inset: 0; /* Shorthand for top: 0; right: 0; bottom: 0; left: 0; */
@@ -10967,7 +10967,7 @@ section.resume-section::before {
   background-repeat: no-repeat;
   min-height: 400px;
   padding: 40px 20px;
-  opacity: 0.08;
+  opacity: 0.14;
 }
 
 section.resume-section .resume-section-content {
@@ -10978,7 +10978,7 @@ section.resume-section .resume-section-content {
   section.resume-section {
     min-height: 100vh;
   }
-  section.resume-section::before {
+  section.resume-section#about::before {
     background-size: cover;
   }
 }
