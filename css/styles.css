@@ -7352,6 +7352,12 @@ textarea.form-control-lg {
   flex-grow: 1 !important;
 }
 
+.flex-grow-1 img {
+  width: 70%; 
+  height: auto;
+  display: block;
+}
+
 .flex-shrink-0 {
   flex-shrink: 0 !important;
 }
