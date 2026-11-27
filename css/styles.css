@@ -10975,6 +10975,7 @@ section.resume-section#about::before {
   min-height: 400px;
   padding: 40px 20px;
   opacity: 0.14;
+  overflow: hidden
 }
 
 section.resume-section .resume-section-content {
